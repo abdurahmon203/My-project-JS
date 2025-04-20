@@ -3,12 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> NFT Marketplace </title>
     <link rel="stylesheet" href="output.css">
 </head>
-<body>
+<body class="bg-[#2B2B2B] text-[#FFFFFF] font-semibold">
     
-    
+    <div class="flex justify-between p-[20px] md:mb-[50px]">
+        <img src="./abdurahmon2.img/logo.svg">
+        <div class="gap-[50px] hidden md:flex">
+            <p class="mt-[23px]">Marketplace</p>
+            <p class="mt-[23px]">Rankings</p>
+            <p class="mt-[23px]">Connect a wallet</p>
+            <button class="bg-[#A259FF] p-[20px] rounded-3xl">🙍 Sign Up</button>
+        </div>
+        <img src="./abdurahmon2.img/nav menu.svg" class="block md:hidden">
+    </div>
 
+    <div class="flex justify-center flex-col md:flex-row gap-[35px] mb-[150px]">
+        <div class="ml-[8%] md:ml-[0px]">
+            <h1 class="w-[315px] md:w-[450px] text-[28px] md:text-[67px]">Discover digital art & Collect NFTs</h1>
+            <p class="w-[315px] text-[16px] md:text-[22px] md:w-[480px] mt-[10px] mb-[20px]">NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</p>
+            <button class="bg-[#A259FF] px-[30px] py-[12px] rounded-2xl mb-[20px] hidden md:block">🚀 Get Started</button>
+            <img src="./abdurahmon2.img/Additional Info.svg" class="hidden md:block">
+        </div>
+        <div>
+            <img src="./abdurahmon2.img/Highlighted NFT.svg" class="p-[20px] md:p-[0px]">
+            <button class="bg-[#A259FF] px-[30px] py-[20px] text-[20px] md:py-[12px] rounded-xl md:rounded-2xl mb-[20px] md:hidden block m-auto w-[350px]">🚀 Get Started</button>
+            <img src="./abdurahmon2.img/Additional Info.svg" class="block ml-[7%] md:hidden">
+        </div>
+    </div>
+    
+    <div class="mb-[150px]">
+        <h1 class="text-[28px] md:text-[38px] ml-[8%]">Trending Collection</h1>
+        <p class="text-[22px] md:text-[18px] mb-[30px] ml-[8%]">Checkout our weekly updated trending collection.</p>
+        <div>
+            <div class="flex justify-center gap-[30px] flex-col md:flex-row">
+                <img src="./abdurahmon2.img/Collection Card.svg"     class="m-[20px]">
+                <img src="./abdurahmon2.img/Collection Card (1).svg" class="m-[20px]">
+                <img src="./abdurahmon2.img/Collection Card (2).svg" class="m-[20px]">
+            </div>
+        </div>
+    </div>
+    
+    <div class="mb-[100px]">
+        <h1 class="text-[28px] md:text-[38px] ml-[8%]">Top creators</h1>
+        <div class="flex justify-center gap-[400px]">
+            <p class="text-[22px] md:text-[18px] mb-[30px] mt-[17px] px-[25px]">Checkout Top Rated Creators on the NFT Marketplace</p>
+            <button class="bg-[#2B2B2B] border-[1.5px] border-[#A259FF] px-[30px] py-[12px] rounded-2xl mb-[20px] hidden md:block">🚀 View Rankings</button>
+        </div>
+        <div>
+            <img src="./abdurahmon2.img/Artist Cards Grid.svg" class="m-auto mt-[20px] hidden md:block">
+            <img src="./abdurahmon2.img/Artist Cards Row.svg" class="m-auto mt-[20px] block md:hidden">
+            <button class="bg-[#2B2B2B] border-[1.5px] border-[#A259FF] px-[32px] py-[15px] rounded-2xl mb-[20px] block md:hidden mt-[20px] m-auto w-[300px]">🚀 View Rankings</button>
+        </div>
+    </div>
+    
+    <div>
+        <h1 class="mb-[20px] text-[28px] md:text-[38px] ml-[8%]">Browse Categories</h1>
+        <img src="./abdurahmon2.img/Category Cards Grid.svg" class="m-auto md:block hidden">
+        <img src="./abdurahmon2.img/Category Cards Grid (1).svg" class="block md:hidden m-auto">
+    </div>
+    
 </body>
 </html>
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
